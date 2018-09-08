@@ -1,7 +1,7 @@
 import re
 
 
-def tokenize(code):
+def tokenize(code, method='tokens'):
     tokens = list()
     keywords = {'IF', 'THEN', 'ENDIF', 'FOR', 'NEXT', 'GOSUB', 'RETURN'}
     token_specification = [
@@ -31,5 +31,8 @@ def tokenize(code):
             if kind == 'ID' and value in keywords:
                 kind = value
             column = mo.start() - line_start
-            tokens.append([kind, value, line_num, column])
+            if method == 'tokens':
+                tokens.append(value)
+            else:
+                tokens.append([kind, value, line_num, column])
     return tokens

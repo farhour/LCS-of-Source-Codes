@@ -1,5 +1,6 @@
 import sys
 import glob
+from tokenizer import tokenize
 
 path = 'input/sample/*.txt'
 
@@ -15,3 +16,4 @@ else:
 for pathToFile in pathToFiles:
     with open(pathToFile, 'r') as content_file:
         content = content_file.read()
+        print(tokenize(content))
