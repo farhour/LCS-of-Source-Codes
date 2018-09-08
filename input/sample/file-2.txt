@@ -1,0 +1,5 @@
+K := 1;
+IF var := 1 THEN
+        sum := number + test * value;
+        ave := summit * 0.05;
+ENDIF;
