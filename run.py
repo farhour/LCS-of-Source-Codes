@@ -2,6 +2,9 @@ import sys
 import glob
 from tokenizer import tokenize
 import GSuffixTree
+import math
+import csv
+import json
 
 path = 'input/sample/*.txt'
 
@@ -24,6 +27,14 @@ lcsList = gst.lcs()
 lcsCount = list()
 for lcs in lcsList:
     lcsCount.append(len(gst.find_all(lcs)))
-print(lcsList)
-print(lcsCount)
-
+tokensCount = len(lcsList[0])
+result = list()
+for i in range(len(lcsList)):
+    score = math.log(lcsCount[i], 2) * math.log(tokensCount, 2)
+    result.append([score, tokensCount, lcsCount[i], ' '.join(lcsList[i])])
+with open('output/result.csv', 'w') as myFile:
+    wr = csv.writer(myFile)
+    wr.writerows(result)
+with open('output/result.json', 'w') as myFile:
+    json = json.dumps(result)
+    myFile.write(json)
