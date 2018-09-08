@@ -111,3 +111,7 @@ dmypy.json
 
 # .idea directory for PyCharm
 /.idea
+
+# ignoring csv and json files for output
+/output/*.*
+!/output/README.md
