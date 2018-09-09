@@ -2,7 +2,7 @@
 
 # Coding Task 2 - LCS of source codes
 
-This repository is mostly an **academic exercise**. This code solves the problem of finding all shared sequences of tokens with the maximum length. The tokens are created from our input source code files by the program. I use **regular expressions** to tokenize the codes and **generalized suffix tree** to find all longest shared sequences of these tokenized codes. The full explanation of the problem can be found in `TASK.md` in this repo. For more details about the time complexity of the problem, see the [FAQ](#faq) section.
+This repository is mostly an **academic exercise**. This code solves the problem of finding all shared sequences of tokens with the maximum length. The tokens are created from our input source code files by the program. I use **regular expressions** to tokenize the codes and **generalized suffix tree** to find all longest shared sequences of these tokenized codes. The full explanation of the problem can be found in `TASK.md` in this repo. For more details about the time complexity of the problem, see the [FAQ](#faq-about-algorithms) section.
 
 ---
 
@@ -13,7 +13,8 @@ This repository is mostly an **academic exercise**. This code solves the problem
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [FAQ](#faq)
+- [Syntax of Sample Source Codes](#syntax-of-sample-source-codes)
+- [FAQ About Algorithms](#faq-about-algorithms)
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
@@ -80,7 +81,24 @@ $ python run.py
 
 ---
 
-## FAQ
+## Syntax of Sample Source Codes
+
+The tokenizer of this program tokenizes the source codes using several **regular expressions**. You can change them and add more complex regular expressions to tokenize different types of programming language and detect more distinct tokens. Here are the rules of current tokenizer:
+- The **Keywords** of the sample programming language are: `IF`, `THEN`, `ENDIF`, `FOR`, `NEXT`, `GOSUB`, and `RETURN`.
+- The other **Tokens** that can be identified by the program are:
+  - **Numbers**: Any interger or decimal number.
+  - **Assignment Operator**: The assignment operator in our sample programming language is `:=`.
+  - **Statement Terminator**: The statement terminator in our sample programming language is `;`.
+  - **Identifiers**: An identifier starts with a letter A to Z or a to z and followed by letters. It does not contain any underscore or number.
+  - **Arithmetic Operators**: The four arithmetic operators are `+`, `/`, `-`, and `*`.
+- **Line Endings**: The tokenizer identifies line endings using a regular expression and skips it.
+- **Spaces and Tabs**: The tokenizer identifies and skips any spaces and tabs in the source codes.
+
+If a token identified by the program as a mismatch, then the tokenizer generates a **runtime error**.
+
+---
+
+## FAQ About Algorithms
 
 - **Why do you NOT use *dynamic programming* to solve this problem?**
     - Dynamic Programming can be used to find the longest common substring in a way that needs less code to write **BUT** when we have a lot of files, the code execution time will be increased. For more details, visit [here]().
