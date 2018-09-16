@@ -1,4 +1,4 @@
-<a href="https://farhour.com"><img src="http://1.bp.blogspot.com/-oeE0sSis1iw/TsQgKO3SbLI/AAAAAAAAACY/W2ZogHbmxqY/s1600/java-string-tokenizer-example.gif" title="LCS" alt="LCS"></a>
+<a href="https://farhour.com"><img src="https://farhour.com/img/github/LCS-of-source-codes.gif" title="LCS" alt="LCS"></a>
 
 # Coding Task 2 - LCS of source codes
 
@@ -62,7 +62,7 @@ Just clone this repo to your local machine and use Python 3 to run it!
 ```shell
 $ python run.py input/samples/file-1.txt input/samples/file-2.txt
 ```
-**Option 2**: Just specify the directory which have the source code files in the `run.py` file and then run it.
+**Option 2**: Specify the directory which have the source code files in the `run.py` file and then run it.
 ```python
 path = 'input/sample/*.txt'
 ```
@@ -84,15 +84,15 @@ $ python run.py
 ## Syntax of Sample Source Codes
 
 The tokenizer of this program tokenizes the source codes using several **regular expressions**. You can change them and add more complex regular expressions to tokenize different types of programming language and detect more distinct tokens. Here are the rules of current tokenizer:
-- The **Keywords** of the sample programming language are: `IF`, `THEN`, `ENDIF`, `FOR`, `NEXT`, `GOSUB`, and `RETURN`.
+- The **Keywords** of the sample programming language are: `IF`, `THEN`, `ENDIF`, `FOR`, `NEXT`, `GOSUB`, `TO`, `PRINT`, and `RETURN`.
 - The other **Tokens** that can be identified by the program are:
-  - **Numbers**: Any interger or decimal number.
+  - **Numbers**: Any integer or decimal number.
   - **Assignment Operator**: The assignment operator in our sample programming language is `:=`.
   - **Statement Terminator**: The statement terminator in our sample programming language is `;`.
   - **Identifiers**: An identifier starts with a letter A to Z or a to z and followed by letters. It does not contain any underscore or number.
   - **Arithmetic Operators**: The four arithmetic operators are `+`, `/`, `-`, and `*`.
 - **Line Endings**: The tokenizer identifies line endings using a regular expression and skips it.
-- **Spaces and Tabs**: The tokenizer identifies and skips any spaces and tabs in the source codes.
+- **Spaces and Tabs**: The tokenizer recognizes and skips any spaces and tabs in the source codes.
 
 If a token identified by the program as a mismatch, then the tokenizer generates a **runtime error**.
 

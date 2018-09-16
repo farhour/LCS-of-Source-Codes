@@ -3,7 +3,7 @@ import re
 
 def tokenize(code, method='tokens'):
     tokens = list()
-    keywords = {'IF', 'THEN', 'ENDIF', 'FOR', 'NEXT', 'GOSUB', 'RETURN'}
+    keywords = {'IF', 'THEN', 'ENDIF', 'FOR', 'NEXT', 'GOSUB', 'RETURN', 'TO', 'PRINT'}
     token_specification = [
         ('NUMBER',  r'\d+(\.\d*)?'),  # Integer or decimal number
         ('ASSIGN',  r':='),           # Assignment operator
