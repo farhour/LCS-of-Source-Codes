@@ -1,0 +1,30 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF I := 3 THEN
+	c := 2 - 1;
+	PRINT c;
+	Z := 2 - 1;
+ENDIF;
+IF z := 1 THEN
+	L := 1 * 9;
+ENDIF;
+IF A := 4 + 60 - 61 / 7 THEN
+	q := 7 - 9;
+	r := 8 / 5;
+	PRINT r;
+	y := 5 - 0;
+	PRINT y;
+	R := 6 * 7;
+	w := 1;
+ENDIF;
+IF J := 0 THEN
+	C := 1 * 2;
+	V := 8 - 6;
+	PRINT V;
+	i := 7 * 9;
+	Q := 5 - 06 - 14 - 9;
+ENDIF;
+GOSUB i

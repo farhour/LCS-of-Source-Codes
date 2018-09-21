@@ -1,0 +1,26 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+v := 5;
+PRINT v;
+IF k := 4 - 0 THEN
+	s := 3;
+	PRINT s;
+ENDIF;
+F := 4;
+PRINT F;
+GOSUB A
+GOSUB e
+GOSUB f
+IF z := 5 THEN
+	f := 5 + 2;
+	PRINT f;
+ENDIF;
+FOR B := 4 TO 5
+	k := 5 / 6;
+	X := 6 - 5;
+	PRINT X;
+	d := 8;
+NEXT B;

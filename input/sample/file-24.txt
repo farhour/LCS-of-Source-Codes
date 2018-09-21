@@ -1,0 +1,33 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+FOR t := 4 TO 5
+	z := 5;
+	PRINT z;
+	I := 6;
+	PRINT I;
+	I := 9 / 5;
+	b := 6;
+NEXT t;
+GOSUB M
+R := 6 / 0;
+PRINT R;
+Q := 2;
+PRINT Q;
+B := 3;
+IF w := 1 THEN
+	J := 4;
+	PRINT J;
+	P := 0 / 6;
+	a := 7;
+	u := 2;
+	PRINT u;
+	i := 9;
+	PRINT i;
+ENDIF;
+z := 4 / 24 + 8;
+PRINT z;
+Y := 5;
+RETURN Q;

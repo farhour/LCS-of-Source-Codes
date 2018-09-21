@@ -1,0 +1,21 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+FOR R := 8 TO 14
+	G := 3 + 49 - 4;
+NEXT R;
+X := 5;
+FOR D := 4 TO 9
+	L := 8 * 7;
+	p := 6;
+	PRINT p;
+	X := 8 * 90 * 1;
+	k := 1;
+	PRINT k;
+NEXT D;
+d := 1;
+PRINT d;
+GOSUB q
+GOSUB E

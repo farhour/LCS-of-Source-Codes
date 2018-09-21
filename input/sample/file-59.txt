@@ -1,0 +1,25 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF y := 2 THEN
+	u := 6 - 0;
+	S := 9;
+ENDIF;
+GOSUB q
+GOSUB R
+IF E := 8 * 72 + 4 THEN
+	x := 7;
+	J := 6 * 2;
+	PRINT J;
+	I := 8;
+ENDIF;
+FOR a := 0 TO 2
+	T := 7;
+	N := 9 * 02 + 8;
+	PRINT N;
+NEXT a;
+GOSUB L
+T := 3 / 6;
+PRINT T;

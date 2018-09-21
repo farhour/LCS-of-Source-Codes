@@ -1,0 +1,32 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF R := 6 * 05 / 3 THEN
+	K := 5;
+	x := 5 - 38 - 6;
+	V := 9;
+	PRINT V;
+	H := 1;
+ENDIF;
+t := 0 / 2;
+PRINT t;
+Y := 6;
+PRINT Y;
+c := 5 + 92 - 75 / 2;
+PRINT c;
+G := 4;
+FOR y := 7 TO 8
+	i := 1;
+	v := 9;
+	PRINT v;
+NEXT y;
+FOR Q := 7 TO 7
+	S := 6 + 25 + 61 - 6;
+	PRINT S;
+NEXT Q;
+IF c := 7 + 7 THEN
+	k := 4 * 5;
+ENDIF;
+RETURN L;

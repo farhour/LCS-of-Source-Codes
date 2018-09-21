@@ -1,0 +1,37 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+K := 3 + 4;
+FOR K := 9 TO 16
+	Y := 0 + 0;
+	PRINT Y;
+	V := 2 * 60 / 4;
+	PRINT V;
+NEXT K;
+GOSUB K
+GOSUB L
+s := 2;
+PRINT s;
+IF R := 3 / 3 THEN
+	v := 3 + 01 + 2;
+	r := 7;
+	D := 6 - 7;
+	PRINT D;
+	N := 1 + 4;
+ENDIF;
+b := 5 + 60 - 3;
+PRINT b;
+GOSUB t
+GOSUB v
+IF t := 1 THEN
+	Y := 1;
+	r := 6 - 49 + 46 + 5;
+	R := 4;
+	R := 1 / 94 + 5;
+ENDIF;
+e := 4;
+PRINT e;
+G := 3 - 9;
+N := 7 + 67 + 7;

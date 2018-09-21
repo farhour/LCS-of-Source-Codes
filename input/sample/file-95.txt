@@ -1,0 +1,27 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF s := 9 * 77 / 07 - 8 THEN
+	O := 0;
+	j := 7 / 86 - 29 + 51 - 4;
+	PRINT j;
+ENDIF;
+IF A := 6 * 6 THEN
+	B := 6;
+	P := 1 + 3;
+	PRINT P;
+	g := 0;
+	PRINT g;
+	D := 7;
+ENDIF;
+GOSUB p
+FOR b := 6 TO 7
+	Z := 5 * 10 * 6;
+	PRINT Z;
+	Z := 6 / 98 / 2;
+	PRINT Z;
+NEXT b;
+f := 7;
+RETURN G;

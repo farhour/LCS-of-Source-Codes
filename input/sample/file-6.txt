@@ -1,0 +1,25 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+GOSUB Y
+GOSUB a
+IF e := 1 THEN
+	q := 2;
+	h := 6;
+ENDIF;
+GOSUB E
+FOR g := 5 TO 11
+	e := 3;
+	k := 7 - 40 + 6;
+	PRINT k;
+NEXT g;
+IF I := 0 THEN
+	K := 1 + 90 + 41 + 3;
+	P := 9 + 81 - 5;
+ENDIF;
+GOSUB o
+F := 1 + 83 - 6;
+O := 8 + 24 - 80 / 2;
+GOSUB A

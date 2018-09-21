@@ -1,0 +1,28 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+U := 9;
+PRINT U;
+Y := 5 / 4;
+FOR h := 1 TO 1
+	a := 9;
+	q := 5;
+	q := 4 / 37 + 54 / 4;
+	V := 8;
+	PRINT V;
+	T := 0 + 9;
+NEXT h;
+IF k := 9 * 59 + 9 THEN
+	U := 2 - 3;
+	i := 9;
+	Q := 6 - 11 + 9;
+	W := 3 + 0;
+	PRINT W;
+ENDIF;
+W := 5;
+i := 6 / 0;
+GOSUB t
+GOSUB m
+GOSUB a

@@ -1,0 +1,31 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+w := 0 - 10 * 97 + 75 / 45 - 4;
+T := 8 + 8;
+PRINT T;
+IF I := 2 + 81 - 2 THEN
+	s := 2;
+ENDIF;
+FOR I := 1 TO 2
+	r := 6;
+	q := 1 + 80 - 29 * 04 + 7;
+	V := 7;
+	PRINT V;
+	K := 4;
+	P := 3;
+NEXT I;
+IF z := 6 * 90 + 08 * 3 THEN
+	B := 4 / 82 - 2;
+	PRINT B;
+	F := 2 + 9;
+	PRINT F;
+ENDIF;
+FOR W := 6 TO 8
+	c := 7;
+	Y := 9 / 52 + 26 / 6;
+	d := 3;
+	d := 0 + 96 * 22 / 3;
+NEXT W;

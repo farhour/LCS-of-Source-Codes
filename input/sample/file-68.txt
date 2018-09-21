@@ -1,0 +1,21 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+GOSUB R
+GOSUB S
+m := 2;
+FOR U := 4 TO 12
+	W := 7 - 97 / 7;
+	i := 3 * 82 + 5;
+	PRINT i;
+NEXT U;
+IF V := 7 THEN
+	b := 3;
+	PRINT b;
+	s := 5;
+	a := 5;
+	PRINT a;
+ENDIF;
+GOSUB b

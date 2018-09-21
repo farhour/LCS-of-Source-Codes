@@ -1,0 +1,19 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF I := 4 - 69 - 8 THEN
+	r := 9;
+ENDIF;
+FOR A := 5 TO 14
+	o := 2;
+	PRINT o;
+	o := 3;
+	PRINT o;
+NEXT A;
+W := 3 * 50 + 77 - 5;
+C := 8;
+PRINT C;
+GOSUB J
+RETURN a;

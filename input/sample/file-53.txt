@@ -1,0 +1,52 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+FOR L := 7 TO 10
+	I := 2 - 1;
+	Z := 7 / 0;
+	C := 5 * 7;
+	PRINT C;
+	B := 9 - 1;
+	PRINT B;
+	E := 3;
+	PRINT E;
+NEXT L;
+FOR i := 1 TO 7
+	l := 4;
+	PRINT l;
+	k := 8;
+	PRINT k;
+NEXT i;
+IF z := 9 + 98 * 8 THEN
+	a := 9;
+	PRINT a;
+	F := 8 * 69 - 14 + 4;
+	PRINT F;
+	z := 2 + 0;
+	O := 6;
+	PRINT O;
+ENDIF;
+i := 6 - 1;
+Y := 7;
+IF I := 1 THEN
+	A := 7;
+	w := 1;
+	PRINT w;
+	j := 5;
+	PRINT j;
+ENDIF;
+IF g := 5 THEN
+	D := 0;
+ENDIF;
+FOR j := 6 TO 14
+	q := 7 * 2;
+	k := 8 - 4;
+	w := 5 + 2;
+	PRINT w;
+NEXT j;
+GOSUB z
+B := 3 + 08 * 33 * 82 / 31 * 32 + 0;
+PRINT B;
+RETURN a;

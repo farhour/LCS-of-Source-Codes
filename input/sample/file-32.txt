@@ -1,0 +1,29 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF n := 2 THEN
+	t := 6;
+	PRINT t;
+ENDIF;
+IF V := 0 THEN
+	V := 8;
+	g := 6;
+	PRINT g;
+	Z := 6 - 76 * 64 - 36 + 8;
+	PRINT Z;
+	f := 8 - 2;
+	PRINT f;
+	N := 4 - 30 * 9;
+ENDIF;
+GOSUB G
+u := 1;
+GOSUB J
+FOR M := 1 TO 4
+	U := 7 + 9;
+	G := 4;
+	PRINT G;
+	c := 6;
+	P := 0;
+NEXT M;

@@ -1,0 +1,33 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF x := 3 THEN
+	S := 7 - 06 * 9;
+	u := 5;
+	PRINT u;
+ENDIF;
+IF e := 0 THEN
+	A := 7 + 69 * 0;
+	PRINT A;
+ENDIF;
+GOSUB l
+S := 0;
+PRINT S;
+IF b := 9 THEN
+	l := 0;
+	k := 1;
+	PRINT k;
+	q := 4;
+	PRINT q;
+	a := 4;
+	PRINT a;
+	I := 3 + 56 / 5;
+	PRINT I;
+ENDIF;
+IF f := 4 THEN
+	y := 9 * 63 - 5;
+	PRINT y;
+ENDIF;
+RETURN X;

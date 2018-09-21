@@ -1,5 +1,23 @@
-K := 1;
-IF var := 1 THEN
-        sum := number + test * value;
-        ave := summit * 0.05;
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF a := 8 THEN
+	x := 2 - 10 * 19 * 2;
+	PRINT x;
+	n := 8 + 9;
+	PRINT n;
+ENDIF;
+FOR W := 4 TO 4
+	i := 1;
+	H := 4 + 7;
+	PRINT H;
+	Z := 7 * 1;
+NEXT W;
+GOSUB u
+GOSUB z
+IF F := 4 / 46 + 9 THEN
+	X := 2;
+	PRINT X;
 ENDIF;

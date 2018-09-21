@@ -1,5 +1,20 @@
-K := 1;
-IF quantity := 1 THEN
-        total := total + price * quantity;
-        tax := price * 0.05;
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+C := 3;
+s := 7;
+IF m := 8 + 54 * 0 THEN
+	L := 4 / 4;
+	PRINT L;
+	j := 1 + 4;
+	PRINT j;
 ENDIF;
+FOR s := 6 TO 7
+	Y := 3;
+	w := 7 * 23 + 33 / 5;
+	PRINT w;
+NEXT s;
+W := 8 * 66 / 22 * 3;
+GOSUB H

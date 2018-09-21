@@ -1,0 +1,38 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF i := 4 - 01 - 7 THEN
+	p := 1 - 89 * 9;
+	g := 9 * 8;
+	PRINT g;
+	f := 8 + 03 + 61 * 92 + 65 - 0;
+	PRINT f;
+	R := 0;
+	PRINT R;
+	x := 6 * 43 - 1;
+ENDIF;
+FOR z := 7 TO 9
+	V := 2;
+	D := 4 * 3;
+	c := 8 - 2;
+	O := 8 + 08 + 8;
+	PRINT O;
+	P := 0;
+NEXT z;
+GOSUB s
+GOSUB i
+g := 0 + 26 * 01 / 1;
+E := 9;
+IF T := 9 - 89 - 19 + 79 + 2 THEN
+	U := 3 + 09 - 45 + 36 / 6;
+	S := 3 / 9;
+	PRINT S;
+	V := 4 + 0;
+	PRINT V;
+	n := 1;
+	K := 9 * 6;
+	PRINT K;
+ENDIF;
+C := 0;

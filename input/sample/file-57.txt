@@ -1,0 +1,17 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+IF p := 1 THEN
+	F := 8;
+	PRINT F;
+ENDIF;
+y := 2 * 2;
+IF T := 5 - 0 THEN
+	J := 7;
+ENDIF;
+r := 5;
+PRINT r;
+E := 7;
+I := 2;

@@ -1,0 +1,24 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+GOSUB s
+GOSUB u
+IF y := 1 * 50 * 33 + 7 THEN
+	o := 3 - 54 + 29 * 2;
+	Y := 0 + 1;
+	p := 2 * 12 + 1;
+	PRINT p;
+ENDIF;
+IF G := 4 + 5 THEN
+	A := 2;
+	a := 8 / 81 + 0;
+	U := 8;
+	PRINT U;
+	h := 0 - 95 + 59 * 5;
+ENDIF;
+FOR Y := 2 TO 10
+	E := 1;
+NEXT Y;
+RETURN I;

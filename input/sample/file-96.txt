@@ -1,0 +1,18 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+GOSUB f
+IF x := 5 THEN
+	v := 2;
+	PRINT v;
+	E := 6;
+ENDIF;
+GOSUB B
+O := 6 + 88 - 05 + 50 * 92 * 1;
+PRINT O;
+FOR P := 1 TO 3
+	q := 8 - 28 * 36 / 2;
+	a := 8 * 42 - 91 / 6;
+NEXT P;

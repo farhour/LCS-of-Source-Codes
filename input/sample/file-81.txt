@@ -1,0 +1,35 @@
+d := 9;
+w := 9 * 60 * 50 + 13 * 38 * 2;
+PRINT w;
+G := 6;
+PRINT G;
+GOSUB V
+l := 3;
+PRINT l;
+IF Y := 3 / 75 / 9 THEN
+	j := 3 + 8;
+	v := 0;
+	B := 8 + 0;
+	PRINT B;
+	Q := 4 + 4;
+	PRINT Q;
+	c := 3;
+	PRINT c;
+ENDIF;
+IF N := 5 THEN
+	L := 1;
+	n := 8 * 2;
+	c := 2;
+ENDIF;
+Z := 1;
+GOSUB l
+FOR F := 9 TO 10
+	f := 2 * 29 + 1;
+	i := 1;
+	n := 8;
+	PRINT n;
+	y := 7 + 2;
+	Z := 4 - 86 - 6;
+	PRINT Z;
+NEXT F;
+RETURN M;
