@@ -69,7 +69,15 @@ path = 'input/sample/*.txt'
 ```shell
 $ python run.py
 ```
-
+You can create random source code files using `codeGenerator.py` file:
+```shell
+$ python codeGenerator.py
+```
+If you need to change the number of files or the repetition of the same code in the files, change these lines in the `codeGenerator.py` file:
+```python
+numberOfFiles = 100
+sameCodeExists = True
+```
 ---
 
 ## Features
@@ -78,6 +86,7 @@ $ python run.py
 - Using **regular expressions** to tokenize the source codes.
 - Reading path of the source code files from the command line or searching all the files in a given directory.
 - Generating the result in `CSV` or `JSON` formats.
+- Generating random source code files using a simple code generator.
 
 ---
 
