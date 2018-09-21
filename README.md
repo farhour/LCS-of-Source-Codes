@@ -110,7 +110,7 @@ If a token identified by the program as a mismatch, then the tokenizer generates
 ## FAQ About Algorithms
 
 - **Why do you NOT use *dynamic programming* to solve this problem?**
-    - Dynamic Programming can be used to find the longest common substring in a way that needs less code to write **BUT** when we have a lot of files, the code execution time will be increased. For more details, visit [here]().
+    - Dynamic Programming can be used to find the longest common substring in a way that needs less code to write **BUT** when we have a lot of files, the code execution time will be increased. For more details, visit [here](https://www.geeksforgeeks.org/longest-common-substring-dp-29/).
 - **What is the *time complexity* of the *dynamic programming* approach?**
     - Dynamic Programming can be used to find the longest common substring in **`O(m*n)`** time For two strings of length **`m`** and **`n`**. The idea is to find the length of the longest common suffix for all substrings of both strings and store these lengths in a table. For more details, visit [here](https://www.geeksforgeeks.org/longest-common-substring-dp-29/).
 - **Is there a better approach with less *time complexity* to find the longest common substring?**
